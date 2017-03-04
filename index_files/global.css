@@ -1,0 +1,26 @@
+/* Effective stylesheet produced by snapshot save */
+.spinner_circle.part1 { animation-delay: -0.8s; }
+.spinner_circle.part2 { animation-delay: -0.7s; }
+.spinner_circle.part3 { animation-delay: -0.6s; }
+.spinner_circle.part3 { animation-delay: -0.5s; }
+.spinner_circle.part4 { animation-delay: -0.4s; }
+.spinner_circle.part5 { animation-delay: -0.3s; }
+.spinner_circle.part6 { animation-delay: -0.2s; }
+.spinner_circle.part7 { animation-delay: -0.1s; }
+.spinner_circle.part8 { animation-delay: 0s; }
+@keyframes spinner {
+  0% { background: rgb(0, 0, 0) none repeat scroll 0% 0%; }
+  80% { background: rgb(178, 178, 178) none repeat scroll 0% 0%; }
+  100% { background: rgb(0, 0, 0) none repeat scroll 0% 0%; }
+}
+@keyframes spinner {
+  0% { background: rgb(0, 0, 0) none repeat scroll 0% 0%; }
+  80% { background: rgb(178, 178, 178) none repeat scroll 0% 0%; }
+  100% { background: rgb(0, 0, 0) none repeat scroll 0% 0%; }
+}
+@keyframes rotation {
+  0% { transform: rotate(359deg); }
+  100% { transform: rotate(0deg); }
+}
+div.spinner_circle { animation: 0.9s ease 0s normal none infinite running spinner; transform-origin: 0% 50% 0px; border-radius: 2px; position: absolute; height: 4px; width: 4px; left: 10px; top: 10px; }
+.retinaSpinner { border: 0px solid red; z-index: 2000000000; position: relative; height: 20px; width: 20px; }
